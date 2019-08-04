@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# data-to-format
+# Data To Format
 =======
 # sqltocsv [![Build Status](https://travis-ci.org/joho/sqltocsv.svg?branch=master)](https://travis-ci.org/joho/sqltocsv)
 
@@ -79,13 +77,9 @@ csvConverter.WriteFile("~/important_user_report.csv")
 
 For more details on what else you can do to the `Converter` see the [sqltocsv godocs](http://godoc.org/github.com/joho/sqltocsv)
 
-## License
-
-&copy; [John Barton](https://johnbarton.co/) but under MIT (see [LICENSE](LICENSE)) except for fakedb_test.go which I lifted from the Go standard library and is under BSD and I am unsure what that means legally.
->>>>>>> sqltocsv/master
-=======
+## Json Library
 go-jsonify
-==========
+
 
 Example Usage:
 
@@ -110,4 +104,12 @@ Example Usage:
 	defer con.Close()
 	
 	fmt.Println(jsonify.Jsonify(rows))
->>>>>>> go-jsonify/master
+
+
+## License
+
+[John Barton](https://johnbarton.co/) but under MIT (see [LICENSE](LICENSE)) except for fakedb_test.go which I lifted from the Go standard library and is under BSD and I am unsure what that means legally.
+
+## Code Origin References:
+- Brian Williams, 2014, go-jsonify, GitHub repository, https://github.com/bdwilliams/go-jsonify.git, Commit Id: 48749139e742a955196b2dff37c2e1aec2f63de6
+- John Barton, 2019, sqltocsv, GitHub repository, https://github.com/joho/sqltocsv.git, Commit Id: a9e6f980056c37e540a633db0b9569ca3809d089
