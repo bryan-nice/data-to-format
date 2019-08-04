@@ -108,7 +108,7 @@ Example Usage:
 
 ## License
 
-[John Barton](https://johnbarton.co/) but under MIT (see [LICENSE](LICENSE)) except for fakedb_test.go which I lifted from the Go standard library and is under BSD and I am unsure what that means legally.
+This code is open source and anyone is allowed to use, re-purpose, or modify as long as it conforms to the license. The code in this repo is allowed to be in any open source commercial software. No private or public entity is allowed to create nor claim intellectual property if any or all of this code is within their systems. For more details see the [LICENSE](LICENSE).
 
 ## Code Origin References:
 - Brian Williams, 2014, go-jsonify, GitHub repository, https://github.com/bdwilliams/go-jsonify.git, Commit Id: 48749139e742a955196b2dff37c2e1aec2f63de6
